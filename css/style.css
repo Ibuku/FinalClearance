@@ -1,0 +1,118 @@
+html,body{
+	font-family: Calibri;	
+}
+
+.form-control{
+	border-radius: 0px;
+}
+
+.form-group *{
+	border-radius: 0px;
+}
+
+.navbar{	
+	min-height: 90px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: Tahoma;
+}
+
+.navbar-default{
+	background-color: #000;
+	border-radius: 0;
+	border-bottom-color: transparent;
+	border-top-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a{	
+	color: #fff;	
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #fff;
+}
+
+.navbar-right{
+	padding-right: 50px;
+}
+
+.logo{
+	margin-top: -20px;
+}
+
+
+.success-input{
+	border: #0c9 solid 1px;
+}
+
+.error-input{
+	border: #DA3344 solid 1px;
+}
+
+
+#footer{
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+}
+
+
+/*change breadcrumb background color*/
+.breadcrumb {
+     background-color: #FAFAFA;
+     border-radius: 0;
+     -moz-border-radius: 0;
+     -webkit-border-radius: 0;
+     -o-border-radius: 0;
+     font-size: 16px;
+}
+
+/*change breadcrumb links color*/
+.breadcrumb a {
+     color: #459D89;
+}
+
+.breadcrumb a:hover {
+     text-decoration: none;
+}
+
+/*change active color*/
+.breadcrumb > .active {
+     color: #aaa;
+}
+
+/*change breadcrumb separator to raquo symbol*/
+.breadcrumb > li + li:before {
+     content: "\00BB";
+     color: #090;
+}
+.separator{
+	border-bottom: #999 dotted 1px;
+	margin-bottom: 20px;
+}
+
+.intro{
+	/*font-family: 'Lucida Handwriting';*/
+	font-family: Magneto;
+	color: #47a;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #FAFAFA;
+	box-shadow: #888 0 0 6px;
+	margin-top: 30px;
+}
+
+.intro h2:nth-child(2){
+	color: #4a7;
+}
+
+.page-body{
+	background-color: #FAFAFA;
+	box-shadow: #888 0 0 6px;
+	padding: 10px;
+}
